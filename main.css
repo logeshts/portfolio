@@ -1,0 +1,103 @@
+* {
+    /* margin: 0; */
+    /* padding: 0; */
+    box-sizing: border-box;
+}
+body{
+    background-image: url('log4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+header{
+    height: 100vh;
+}
+li{
+    display: inline-block;
+    padding: 50px;
+    font-size: 20px;
+    list-style-type: none;
+
+}
+li a{
+    display: inline-block;
+    text-decoration:none;
+    color:black;
+    border: 3px solid aqua;
+    border-radius: 2px;
+    font-weight: 500;
+    width: 100px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+ @keyframes{
+
+ 
+    from {
+        margin-top: 100%;
+        width: 300%;
+    }
+
+    to{
+        margin-top: 0%;
+        width: 100%;
+    }
+}
+h1{
+    animation-duration: 1s;
+    animation-name: logesh;
+    animation-iteration-count: initial;
+    animation-duration: 1s;
+    opacity: 
+} */
+footer #t{
+    color: white;
+}
+footer{
+    text-align: center;
+
+    
+}
+
+a:hover{
+    color: white;
+    background-color: black;
+}
+p{
+    padding-left: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+#b{
+    color: rgb(245, 247, 245);
+}
+#s{
+    color: rgb(160, 160, 62);
+}
+#k{
+    font-size: 30px;
+    padding-left: 25px;
+    color: rgb(7, 20, 16);
+    
+}
+#t{
+    color: brown;
+    font-size: 26px;
+    padding-left: 10px;
+    margin-left: 100px;
+
+}
+
+#fadeIn {
+    animation: 3s fadeIn;
+}
+
+
+
+
+
+@media{
+    width: 40px;
+}
